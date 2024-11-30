@@ -8,8 +8,6 @@ class Solution {
 
 
     public int getMaxRob(int[] nums, int start, int end) {
-        int[] dp = new int[nums.length+1];
-    
         int maxRob = 0;
         int preRob = 0;
         
